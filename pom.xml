@@ -66,14 +66,15 @@
 			<artifactId>ojdbc11</artifactId>
 			<scope>runtime</scope>
 		</dependency>	
-        <!-- <dependency>
+		<!-- ####################################### -->
+		<dependency>
         	<groupId>com.oracle.database.security</groupId>
         	<artifactId>oraclepki</artifactId>
         	<version>21.5.0.0</version>
         	<scope>runtime</scope>
-    	</dependency> -->
+    	</dependency> 
 		<!-- aki -->
-		<!-- <dependency>
+		 <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
@@ -88,7 +89,8 @@
         	<artifactId>osdt_core</artifactId>
         	<version>21.5.0.0</version>
         	<scope>runtime</scope>
-    	</dependency> -->
+    	</dependency> 
+		<!-- ####################################3 -->
 		<dependency>
     		<groupId>org.hamcrest</groupId>
    			<artifactId>hamcrest</artifactId>
@@ -111,6 +113,19 @@
 			<scope>test</scope>
 		</dependency>
 
+
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-resource-server</artifactId>
+			<version>6.2.1</version> <!-- Asegúrate de usar la versión compatible -->
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-jose</artifactId>
+			<version>6.2.1</version> <!-- Para JWT -->
+		</dependency>
 	</dependencies>
 
 	<build>
